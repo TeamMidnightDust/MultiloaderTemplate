@@ -1,0 +1,24 @@
+{
+  // REMOVE THESE COMMENTS AFTER READING THEM
+  "yourmod.midnightconfig.title":"I am a title",        // "*.midnightconfig.title" defines the title of the screen
+  "yourmod.midnightconfig.text1":"I am a comment *u*",  // Translation for the comment "text1" defined in the example config
+  "yourmod.midnightconfig.text2":"I am a centered comment (╯°□°）╯︵ ┻━┻",
+  "yourmod.midnightconfig.name":"I am a string!",             // Translation for the field "name" defined in the example config
+  "yourmod.midnightconfig.name.tooltip":"I am a tooltip uwu \nI am a new line",
+  // When hovering over the option "showInfo",
+  // this text will appear as a tooltip.
+  // "\n" inserts a line break.
+  "yourmod.midnightconfig.fabric":"I am an int",
+  "yourmod.midnightconfig.world":"I am a double",
+  "yourmod.midnightconfig.showInfo":"I am a boolean",
+  "yourmod.midnightconfig.hello":"I am a limited int!",
+  "yourmod.midnightconfig.testEnum":"I am an enum!",
+  "yourmod.midnightconfig.enum.TestEnum.NEOFORGE":"Fast",
+  "yourmod.midnightconfig.enum.TestEnum.FABRIC":"Fancy",
+  "yourmod.midnightconfig.enum.TestEnum.QUILT":"Fabulous",
+  "yourmod.midnightconfig.intSlider":"I am an integer slider!",
+  "yourmod.midnightconfig.floatSlider":"I am a float slider!",
+  "yourmod.midnightconfig.category.numbers": "Numbers",
+  "yourmod.midnightconfig.category.text": "Text",
+  "yourmod.midnightconfig.category.sliders": "Sliders"
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "yourmod",
+  "version": "${version}",
+
+  "name": "Your Mod",
+  "description": "An example multiloader mod featuring MidnightLib!",
+  "authors": [
+    "You!"
+  ],
+  "contact": {
+    "homepage": "https://www.midnightdust.eu/",
+    "sources": "https://github.com/TeamMidnightDust/SwordBlocking",
+    "issues": "https://github.com/TeamMidnightDust/SwordBlocking/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/yourmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.yourmod.fabric.YourModFabric"
+    ],
+    "client": [
+      "com.example.yourmod.fabric.YourModFabric"
+    ],
+    "server": [
+      "com.example.yourmod.fabric.YourModFabric"
+    ]
+  },
+
+  "mixins": [
+    "yourmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabric-api": "*",
+    "midnightlib": "*"
+  }
+}
